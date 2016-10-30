@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+	<title></title>
+	 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <style>
+  	#map{height: 100%}
+  </style>
+</head>
+
+<body>
+	<div id="map"></div>
+	<script type="text/javascript">
+		//init map
+		var map = L.map('map').setView([44.052071, -123.086754],13);
+
+		//load tile layer
+		L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
+			{
+				attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
+				maxZoom: 18,
+				minZoom: 8
+			}).addTo(map)
+
+	</script>
+
+</body>
+</html>
