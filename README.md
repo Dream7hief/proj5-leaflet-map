@@ -16,7 +16,6 @@ bash ./configure
 make run
 site can be reached at: localhost:5000
 
-Sample
 ##Screenshots ##
 ![Settings Window](https://raw.github.com/Dream7hief/proj5-leaflet-map/master/p1.png)
 
