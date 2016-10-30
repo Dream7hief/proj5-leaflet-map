@@ -1,16 +1,17 @@
-# proj3-anagrams
-Vocabularly anagrams game for primary school English language learners (ELL)
-
+# proj5-leaflet-map
+This is a Leaflet map using MapQuest API 
 
 Author: Logan Poole
 Contact: lpoole3@uoregon.edu
 
 Application:
-This game is designed to help primary school English language learners (ELL) in class. The object of the game is two find three(or more) words from the given list in the scrambled letter provided.
+tHE APPLICATION centers at Eugene, OR and displaces local Vape Stores while also displaying user's locaton per mouse 'click'.
+
+Note: I'd like to add location tracking as well as distance calculations to find the closest store relative to the user.
 
 Running the Application
-You can change the number or words necessary to win by changing 
-success_at_count in CONFIGURE.py and vocab.html
+git clone https://github.com/Dream7hief/proj5-leaflet-map InStallDirecory
+cd InstallDirectory
 bash ./configure
 make run
 site can be reached at: localhost:5000

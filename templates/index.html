@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
 <head>
-	<title>{{location[0][0]}}{{location[0][1]}}{{location[0][2]}}</title>
+	<title>Eugene-Springfield</title>
 	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
 
     <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
@@ -49,18 +49,6 @@
 			geocode = MQ.geocode().on('success', function(e){
 				popup.setContent(geocode.describeLocation(e.result.best))
 			});
-
-			var marker = L.marker([44.052071, -123.086754],
-					{
-						title: "info",
-						zIndexOffset: -10
-
-					}).addTo(map);
-
-			
-		//load tile layer
-
-		//Add Markers
 		}
        
 	</script>
